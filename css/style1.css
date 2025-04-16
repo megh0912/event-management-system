@@ -1,0 +1,368 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+
+
+}
+.top-header{
+    height:100px;
+    width: 100%;
+    
+}
+.top-header .top-left{
+    height: 100px;
+    width: 33%;
+    background-color: #8C3061;
+    float: left;
+}
+.top-header .top-left-left{
+    height: 100px;
+    width: 50%;
+   
+    float: left;
+}
+.top-header .top-left-left img{
+    height: 85px;
+    width: 99px;
+    margin:auto;
+    padding-top: 10px;
+    display:flex;
+    border-radius: 50%;
+   }
+
+.top-header .top-left-right{
+    height: 100px;
+    width: 50%;
+    
+    
+    float: left;
+   
+}
+
+.top-header .top-left-right h1{
+  
+    text-align: left;
+    display: block;
+    padding-top: 2px;
+    padding-right: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+
+}
+.top-header .top-mid{
+    height: 100px;
+    width: 22%;
+    background-color:#8C3061;
+   
+    float: left;
+    
+}
+
+.top-header .top-right{
+    height: 100px;
+    width: 45%;
+    background-color: #8C3061;
+    float: left;
+}
+.top-header .top-right ul{
+    text-align: left;
+}
+.top-header .top-right ul li{
+    display: inline-block;
+}
+.top-header .top-right a{
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.top-header .top-right ul a:hover{
+    color: black;
+    /*background:linear-gradient(135deg,rgb(221, 230, 230),bisque); */
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px ;
+}
+.fa-caret-down{
+    float: right;
+    margin-left: 5px;
+    padding-top: 3px;
+}
+.dropdown-menu{
+    display: none;
+}
+.top-header .top-right ul li:hover .dropdown-menu{
+    display:block;
+    position: absolute;
+    color: azure;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: grey;
+    opacity: 0.9;
+}
+.top-header .top-right ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 10px;
+    
+}
+.top-header .top-right ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/*
+.top-header .top-right h4{
+    float: right;
+    padding-right: 40px;
+
+}
+.top-header .top-right ul{
+
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.top-header .top-right ul li{
+    display:inline-block;
+}
+.top-header .top-right ul li a{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+}
+.top-right .fa-facebook{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px 8px;
+
+}
+.top-right .fa-instagram{
+    background: linear-gradient(135deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+.top-right .fa-youtube-play{
+    background-color:red;
+    border-radius: 5px;
+    padding: 5px 8px;
+
+}
+*/
+
+/* menu area 
+
+.menu-area{
+    height:50px;
+    width: 100%;
+    background-color: #525252;
+}
+.menu-area .menu-left{
+    height: 50px;
+    width:25%;
+    background-color: #525252;
+    float: left;
+}
+.menu-area .menu-mid{
+    height: 50px;
+    width:50%;
+    background-color: #525252;
+    float: left;
+
+}
+.menu-area .menu-mid ul{
+    text-align: left;
+}
+.menu-area .menu-mid ul li{
+    display: inline-block;
+}
+.menu-area .menu-mid ul a{
+    color: white;
+    font-size: 22px;
+    line-height: 20px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.menu-area .menu-mid ul a:hover{
+    color: black;
+    background:linear-gradient(135deg,rgb(221, 230, 230),bisque);
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px;
+}
+.menu-area .menu-left{
+    height: 50px;
+    width:25%;
+    background-color:;
+    float: left;
+}
+*/
+/* back ground image */
+
+.body-part{
+   
+    
+    box-shadow: 10px 10px 10px 10px black;
+    transition:transform ease 0.5s, box-shadow ease 0.5s;
+
+}
+
+/*  gallery  */
+
+.gallery{
+    height:1200px;
+    width:100%;
+    
+}
+.gallery h1{
+    color:rgb(31, 29, 29);
+    text-align: center;
+    font-style: italic;
+    padding-top: 160px;
+
+}
+.gallery .one1{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .one1 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+}
+
+.gallery .two2{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .two2 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+.gallery .three3{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .three3 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+.gallery .four4{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .four4 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+.gallery .five5{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .five5 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+.gallery .six6{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .six6 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+.gallery .seven7{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .seven7 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+.gallery .eight8{
+    height: 450px;
+    width:25%;
+    float:left;
+}
+.gallery .eight8 img{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+    border:2px black;
+    border-radius: 2px;
+    padding-top: 40px;
+
+}
+
+
+
+/* footer */
+

@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>document</title>
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/style2.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/style4.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="top-header">
+            <div class="top-left">
+                <div class="top-left-left">
+                    <img src="http://localhost/PROJECT/images/5.jpeg">
+                </div>
+                <div class="top-left-right">
+                    <h1><i><b>Event Everlasting</b></i></h1>
+                </div> 
+            </div>
+            <div class="top-mid">
+                
+            </div>
+            <div class="top-right">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                    <li><a href="#"><i class="fa fa-server" aria-hidden="true"></i>Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-menu"><button class="dropbtn"></button>
+                             <ul>
+                                 <li><a href="birthday.html">Birthday </a></li>
+                                 <li><a href="marriage.html">Marriage</a></li>
+                                 <li><a href="Anniversary.html">Anniversary</a></li>
+                                 <li><a href="rice ceremony.html">Rice Ceremony</a></li>
+                                 <li><a href="engagement.html">Engagement</a></li>
+                                 <li><a href="Concert.html">Concert</a></li>
+                                 <li><a href="get together.html">Get Together</a></li>
+                                 
+                                 
+                             </ul>
+                         </div>
+                     </li>
+                     <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i>Events <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-menu"><button class="dropbtn"></button>
+                             <ul>
+                                 
+                                 <li><a href="event.html">Event-Details</a></li>
+                             </ul>
+                         </div>
+                     </li>
+                    <li><a href="aboutus.html"><i class="fa fa-user" aria-hidden="true"></i> About us</a></li>
+                    <li><a href="gallery.html"> <i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a></li>
+                    <li><a href="index1.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Log-out</a></li>
+                    <li><a href="feedback.html"><i class="fa fa-comments" aria-hidden="true"></i>Feedback</a></li>
+                </ul>
+                
+            </div>
+
+            
+            <div class="container">
+                
+                <form action="php/act.php" method="post">
+                    <h2>Event Booking Form</h2>
+                    <h3>Book Venue</h3>
+                    
+                    <div class="food-section">
+                        <label><strong>Food</strong></label><br>
+                        <input type="checkbox"> Breakfast
+                        <input type="checkbox"> Lunch
+                        <input type="checkbox"> Tea & Snacks
+                        <input type="checkbox"> Dinner
+                        <br>
+                        <label>Food Type</label> 
+                        <input type="radio" name="foodType"> Veg
+                        <input type="radio" name="foodType"> Veg & Non-Veg
+                        <br><br>
+                        <button type="button" class="next">Next</button>
+                    </div>
+                    <div class="meal-section">
+                        <label><strong>Lunch Type:</strong></label>
+                        <select>
+                   <option> Select </option>
+                            <option>Normal</option>
+                            <option>Royal</option>
+                            <option>Deluxe</option>
+                        </select>
+                        <br>
+                        <label><strong>Dinner Type:</strong></label>
+                        <select>
+                   <option> Select </option>
+                            <option>Normal</option>
+                            <option>Royal</option>
+                            <option>Deluxe</option>
+                        </select>
+                        <br><br>
+                        <button type="button" class="next">Next</button>
+                    </div>
+                    <div class="decoration-section">
+                        <label><strong>Decoration</strong></label><br>
+                        <label>Lighting:</label>
+                        <select>
+                   <option> Select </option>
+                            <option>Normal</option>
+                            <option>Delite</option>
+                            <option>Royal</option>
+                            <option>No</option>
+                        </select>
+                        <br>
+                        <label>Flowers:</label>
+                        <select>
+                   <option> Select </option>
+                            <option>No</option>
+                            <option>Yes</option>
+                        </select>
+                        <br>
+                        <label>Seating:</label>
+                        <select>
+                   <option> Select </option>
+                            <option>Chairs & Sofas</option>
+                            <option>Only Chairs</option>
+                            <option>Only Sofas</option>
+                        </select>
+                        <br><br>
+                        <button type="button" class="next">Next</button>
+                    </div>
+                    <div class="total-section">
+                        <label><strong>Total:</strong></label>
+                        <span><td><input type="text" id="t1" placeholder="Enter the amount"></td>
+                        </span>
+                        <br><br>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+                <div class="message">
+                    <p>Your event is sent for approval.</p>
+                    <button type="button">OK</button>
+                </div>   
+            </div>
+            <a href="index.html" class="hire">Previous</a>
+            
+        </body>
+</html>

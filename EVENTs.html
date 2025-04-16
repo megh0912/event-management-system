@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Event</title>
+  <link rel="stylesheet" href="styles.css">
+<style>
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('images/venue.webp');
+  
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  width: 500px;
+  border: 2px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #6665ee;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #333;
+}
+.hire {
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+  margin-top: 490px;
+  margin-left: 250px;
+}
+.hire:hover {
+  background: #000;
+}
+</style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Event</title>
+  <link rel="stylesheet" href="styles.css">
+<style>
+/* Add your CSS here (same as provided) */
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Book an Event</h1>
+    <form id="bookingForm" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+      <label for="userId">User ID:</label>
+      <input type="text" id="userId" name="userId" placeholder="Enter user ID" required>
+      
+      <label for="bookingId">Booking ID:</label>
+      <input type="text" id="bookingId" name="bookingId" value="<?php echo uniqid('BOOK_'); ?>" readonly>
+      
+      <label for="eventType">Event Type:</label>
+      <select id="eventType" name="eventType" required>
+        <option value="marriage">Marriage</option>
+        <option value="riceCeremony">Rice Ceremony</option>
+        <option value="birthdayParty">Birthday Party</option>
+        <option value="collegeEvents">College Events</option>
+        <option value="anniversaryEvent">Anniversary Event</option>
+        <option value="engagement">Engagement</option>
+        <option value="getTogether">Get Together</option>
+      </select>
+      
+      
+      <label for="eventPlace">Event Place:</label>
+      <input type="text" id="eventPlace" name="eventPlace" placeholder="Enter event place" required>
+      
+      <label for="numberOfGuests">No. of Guests:</label>
+      <input type="number" id="numberOfGuests" name="numberOfGuests" placeholder="Enter no. of guests" required>
+      
+      <label for="eventDate">Date:</label>
+      <input type="date" id="eventDate" name="eventDate" required>
+      
+      <button type="submit">Book</button>
+    </form>
+  </div>   
+  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
